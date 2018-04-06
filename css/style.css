@@ -38,7 +38,7 @@ a.anchor {
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
-    background: url('http://i.imgur.com/s9XDcKJ.jpg') no-repeat center center fixed;
+    background: url(../images/intro.jpg) no-repeat center center fixed;
     background-size: cover;
     min-height: 850px;
 }
@@ -140,7 +140,7 @@ h4 {
 /* END ABOUT - START AUDIO */
 
 .content-audio {
-    background: url('http://i.imgur.com/vZeQPuE.jpg') no-repeat center center fixed;
+    background: #000 url(../images/audioworks.jpg) no-repeat center center fixed;
     background-size: cover;
     text-align: center;
     min-height: 800px;
@@ -362,7 +362,7 @@ iframe {
 /* END CONTACT - START OTHER */
 
 .content-portfolio {
-    background: url('http://i.imgur.com/rbBK5zt.jpg') no-repeat center center fixed;
+    background: url(../images/other.jpg) no-repeat center center fixed;
     background-size: cover;
     text-align: center;
     min-height: 700px;
