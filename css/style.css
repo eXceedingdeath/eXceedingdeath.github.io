@@ -230,11 +230,15 @@ iframe {
 
 /*Change icons size here*/
 
-.mailto .fa {
+.mailto .far {
     font-size: 4.5em;
 }
 
 .social-icons .fa {
+    font-size: 2em;
+}
+
+.social-icons .fab {
     font-size: 2em;
 }
 
@@ -252,7 +256,18 @@ iframe {
     transition: all 0.2s ease-in-out;
 }
 
-.mailto .fa {
+.social-icons .fab {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFF;
+    color: rgba(255, 255, 255, 0.8);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.mailto .far {
     width: 100px;
     height: 100px;
     line-height: 100px;
@@ -263,37 +278,45 @@ iframe {
     transition: all 0.2s ease-in-out;
 }
 
-.mailto.icon-circle .fa,
+.mailto.icon-circle .far,
 .social-icons.icon-circle .fa {
     border-radius: 50%;
 }
+.social-icons.icon-circle .fab {
+    border-radius: 50%;
+}
 
-
+.social-icons .fab:hover,
+.social-icons .fab:active,
 .social-icons .fa:hover,
 .social-icons .fa:active,
-.mailto .fa:hover,
-.mailto .fa:active {
+.mailto .far:hover,
+.mailto .far:active {
     color: #FFF;
     box-shadow: 1px 1px 3px #333;
 }
 
-.mailto.icon-zoom .fa:hover,
-.mailto.icon-zoom .fa:active,
+.mailto.icon-zoom .far:hover,
+.mailto.icon-zoom .far:active,
 .social-icons.icon-zoom .fa:hover,
-.social-icons.icon-zoom .fa:active {
+.social-icons.icon-zoom .fa:active,
+.social-icons.icon-zoom .fab:hover,
+.social-icons.icon-zoom .fab:active {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
 
-.mailto.icon-rotate .fa:hover,
-.mailto.icon-rotate .fa:active,
+.mailto.icon-rotate .far:hover,
+.mailto.icon-rotate .far:active,
 .social-icons.icon-rotate .fa:hover,
-.social-icons.icon-rotate .fa:active {
+.social-icons.icon-rotate .fa:active,
+.social-icons.icon-rotate .fab:hover,
+.social-icons.icon-rotate .fab:active {
     -webkit-transform: scale(1.2) rotate(360deg);
     transform: scale(1.2) rotate(360deg);
 }
 
-.mailto .fa-envelope-o {
+.mailto .fa-envelope {
     background-color: #4898f7;
 }
 
